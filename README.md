@@ -20,7 +20,6 @@ Next we flatten the 2D layer we have at this stage into a 1D layer. So at this p
 
 We then apply dropout again to further prevent overfitting
 
-And finally, we feed that into our final 10 units where softmax is apllied to choose our
-
+And finally, we feed that into our final 10 units where softmax is apllied to choose the model
 
 
