@@ -14,11 +14,4 @@ Next we apply a Maxpooling2D layer that takes the maximum of each 2X2 result to 
 
 A dropout filter is then applied to prevent overfitting
 
-Next we flatten the 2D layer we have at this stage into a 1D layer. 
-At  this point we can just pretend we have a traditional multi-layer perceptron
-
-....and feed that into a hidden, flat layer of 128units
-
-We then apply dropout again to further prevent overfitting
-
 
