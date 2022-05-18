@@ -12,6 +12,6 @@ we then run a second convolution on top of that with 64 3X3 windows-this topolog
 
 Next we apply a Maxpooling2D layer that takes the maximum of each 2X2 result to distill the results down into something more manageable
 
-A dropout filter is then applied to prevent overfitting
+A dropout filter is then applied to prevent overfitting while building the model
 
 
